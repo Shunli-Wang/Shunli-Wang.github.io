@@ -59,7 +59,7 @@
 <!-- CONTENT -->
 <div class="main">
     I am a fifth-year Ph.D. student at Academy for Engineering and Technology of Fudan University. 
-    As a part of the Intelligent Perception and Autonomous Systems Laboratory (IPASS Lab), I am advised by Prof. <a href="http://faet.fudan.edu.cn/e4/71/c23902a255089/page.htm" style="color: blue;"> Lihua Zhang </a>.
+    As a part of the Cognition and Intelligent Technology Laboratory (CIT-Lab), I am advised by Prof. <a href="http://faet.fudan.edu.cn/e4/71/c23902a255089/page.htm" style="color: blue;"> Lihua Zhang </a>.
     Before that, I received my B.S. degree from School of Electrical Engineering and Automation, Anhui University, in 2019.
     My research interests are <b>Vision-based Fine-grained Action Recognition</b> and <b>Action Quality Assessment</b> in medical scenes.
     I have also explored many vision tasks such as multi-target tracking, human-object interaction detection, network quantization and 6D pose estimation of satellites. 
@@ -70,6 +70,32 @@
     <div class="headline">Publications</div>
 
     <!-- publication -->
+    <div class="publication">
+        <div class="pubimg"><img src="publications/img/slwang_CPR-Coach.png" class="thumbnail"></div>
+        <div style="display:table-row">
+            <div class="pubtitle">● CPR-Coach: Recognizing Composite Error Actions based on Single-class Training </div>
+            <div class="pubauthors"><b>Shunli Wang</b>, Shuaibing Wang, Dingkang Yang, Mingcheng Li, Haopeng Kuang, Xiao Zhao, Liuzhen Su, Peng Zhai, Lihua Zhang*</div>
+            <div class="pubinfo">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2024)</div>
+            <div class="pubbox trigger"><a href="javascript:void(0)">Abstract</a></div>
+            <div class="pubbox"><a href="publications/pdf/slwang_CPR-Coach.pdf">PDF</a></div>
+            <div class="pubbox"><a href="publications/pdf/slwang_CPR-Coach_supp.pdf">Supp</a></div>
+            <!-- <div class="pubbox"><a href="https://shunli-wang.github.io/CPR-Coach/">Project Page</a></div> -->
+            <div class="pubbox"><a href="https://github.com/Shunli-Wang/CPR-Coach">Code</a></div>
+            <div class="pubbox"><a href="https://github.com/Shunli-Wang/CPR-Coach">Dataset</a></div>
+            <div class="pubbox"><a href="https://drive.google.com/file/d/1pYcvSlRUVmMM3LuCDVtIlvt4rRy-Ldpf/view?usp=sharing">Demo Video</a></div>
+            <!-- <div class="pubbox"><a href="publications/bibtex/slwang_CPR-CLIP.bib">BibTex</a></div> -->
+            <div class="abstract">Fine-grained medical action analysis plays a vital role in improving medical skill training efficiency, but it faces the problems of data and algorithm shortage. 
+                Cardiopulmonary Resuscitation (CPR) is an essential skill in emergency treatment. Currently, the assessment of CPR skills mainly depends on dummies and trainers, leading to high training 
+                costs and low efficiency. For the first time, this paper constructs a vision-based system to complete error action recognition and skill assessment in CPR. Specifically, we define 13 types 
+                of single-error actions and 74 types of composite error actions during external cardiac compression and then develop a video dataset named CPR-Coach. By taking the CPR-Coach as a benchmark, 
+                this paper investigates and compares the performance of existing action recognition models based on different data modalities. To solve the unavoidable “Single-class Training & Multi-class Testing” 
+                problem, we propose a human-cognition-inspired framework named ImagineNet to improve the model’s multierror recognition performance under restricted supervision. Extensive comparison and actual 
+                deployment experiments verify the effectiveness of the framework. We hope this work could bring new inspiration to the computer vision and medical skills training communities simultaneously. 
+                The dataset and the code are publicly available on
+                <a href="https://github.com/Shunli-Wang/CPR-Coach" style="color: blue;"> GitHub </a> . </div>
+        </div>
+    </div>
+
     <div class="publication">
         <div class="pubimg"><img src="publications/img/slwang_CPR-CLIP.png" class="thumbnail"></div>
         <div style="display:table-row">
@@ -82,7 +108,7 @@
             <div class="pubbox"><a href="https://github.com/Shunli-Wang/CPR-CLIP">Code</a></div>
             <div class="pubbox"><a href="https://drive.google.com/file/d/1VtA2A6VIrY7ZZEzV7aE_L6rZ9WRDOPZF/view?usp=sharing">Data</a></div>
             <!-- <div class="pubbox"><a href="https://drive.google.com/file/d/1pYcvSlRUVmMM3LuCDVtIlvt4rRy-Ldpf/view?usp=sharing">Demo Video</a></div> -->
-            <!-- <div class="pubbox"><a href="publications/bibtex/slwang_CA-SpaceNet.bib">BibTex</a></div> -->
+            <div class="pubbox"><a href="publications/bibtex/slwang_CPR-CLIP.bib">BibTex</a></div>
             <div class="abstract">The expensive cost of the medical skill training paradigm hinders the development of medical education, which has attracted widespread attention in the intelligent 
                 signal processing community. To address the issue of composite error action recognition in Cardiopulmonary Resuscitation (CPR) training, this letter proposes a multimodal pre-training 
                 framework named CPR-CLIP based on prompt engineering. Specifically, we design three prompts to fuse multiple errors naturally on the semantic level and then align linguistic and visual 
@@ -92,30 +118,6 @@
                 <a href="https://github.com/Shunli-Wang/CPR-CLIP" style="color: blue;"> GitHub </a> . </div>
         </div>
     </div>
-
-    <!-- <div class="publication">
-        <div class="pubimg"><img src="publications/img/slwang_CPR-Coach.png" class="thumbnail"></div>
-        <div style="display:table-row">
-            <div class="pubtitle">● CPR-Coach: Recognizing Composite Error Actions based on Single-class Training </div>
-            <div class="pubauthors"><b>Shunli Wang</b>, Qing Yu, Shuaibing Wang, Dingkang Yang, Liuzhen Su, Xiao Zhao, Haopeng Kuang, Peixuan Zhang, Peng Zhai, Lihua Zhang*</div>
-            <div class="pubinfo"><b>[Manuscript Submited] to Pattern Recognition</b></div>
-            <div class="pubbox trigger"><a href="javascript:void(0)">Abstract</a></div>
-            <div class="pubbox"><a href="https://arxiv.org/abs/2309.11718">arXiv</a></div>
-            <div class="pubbox"><a href="https://shunli-wang.github.io/CPR-Coach/">Project Page</a></div>
-            <div class="pubbox"><a href="https://github.com/Shunli-Wang/CPR-Coach/tree/main/ImagineNet">Code</a></div>
-            <div class="pubbox"><a href="https://drive.google.com/file/d/15N7DR7BGNSPr3wJv2sYfnF0T802_BbtP/view?usp=sharing">Dataset</a></div>
-            <div class="pubbox"><a href="https://drive.google.com/file/d/1pYcvSlRUVmMM3LuCDVtIlvt4rRy-Ldpf/view?usp=sharing">Demo Video</a></div>
-            <div class="abstract">Fine-grained medical action analysis plays a vital role in improving medical skill training efficiency, but it faces the problems of data and algorithm shortage. 
-                Cardiopulmonary Resuscitation (CPR) is an essential skill in emergency treatment. Currently, the assessment of CPR skills mainly depends on dummies and trainers, leading to high 
-                training costs and low efficiency. For the first time, this paper constructs a vision-based system to complete error action recognition and skill assessment in CPR. Specifically, 
-                we define 13 types of single-error actions and 74 types of composite error actions during external cardiac compression and then develop a video dataset named CPR-Coach. By taking 
-                the CPR-Coach as a benchmark, this paper thoroughly investigates and compares the performance of existing action recognition models based on different data modalities. To solve 
-                the unavoidable Single-class Training & Multi-class Testing problem, we propose a human-cognition-inspired framework named ImagineNet to improve the model’s multi-error recognition 
-                performance under restricted supervision. Extensive experiments verify the effectiveness of the framework. We hope this work could advance research toward fine-grained medical action
-                 analysis and skill assessment. The CPR-Coach dataset and the code of ImagineNet will be publicly available on
-                <a href="https://github.com/Shunli-Wang/CPR-Coach/tree/main/ImagineNet" style="color: blue;"> GitHub </a> . </div>
-        </div>
-    </div> -->
     
     <div class="publication">
         <div class="pubimg"><img src="publications/img/slwang_CA-SpaceNet.png" class="thumbnail"></div>
