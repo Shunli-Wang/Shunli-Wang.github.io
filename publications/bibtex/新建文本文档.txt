@@ -1,6 +1,0 @@
-@inproceedings{wang2024CPRCoach,
-    author    = {Wang, Shunli and Wang, Shuaibing and Yang, Dingkang and Li, Mingcheng and Kuang, Haopeng and Zhao, Xiao and Su, Liuzhen and Zhai, Peng and Lihua Zhang},
-    title     = {CPR-Coach: Recognizing Composite Error Actions based on Single-class Training},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    year      = {2024}
-}
