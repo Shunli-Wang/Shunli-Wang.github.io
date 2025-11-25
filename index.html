@@ -70,6 +70,31 @@
 
     <!-- publication -->
     <div class="publication">
+        <div class="pubimg"><img src="publications/img/slwang_VRAG-DFD.png" class="thumbnail"></div>
+        <div style="display:table-row">
+            <div class="pubtitle">● VRAG-DFD: Verifiable Retrieval-Augmentation for MLLM-based Deepfake Detection </div>
+            <div class="pubauthors"><u>Hui Han</u>, <u><b>Shunli Wang</b></u>, Yandan Zhao, Taiping Yao, Shouhong Ding*</div>
+            <div class="pubinfo">Manuscript</div>
+            <div class="pubbox trigger"><a href="javascript:void(0)">Abstract</a></div>
+            <!-- <div class="pubbox"><a href="publications/pdf/slwang_PhD-Dissertation.pdf">PDF(CN)</a></div> -->
+            <!-- <div class="pubbox"><a href="publications/pdf/slwang_CPR-Dissertation.pdf">PDF(EN)</a></div> -->
+            <!-- <div class="pubbox"><a href="publications/pdf/slwang_PhD-Dissertation_Slides.pdf">Slides</a></div> -->
+            <!-- <div class="pubbox"><a href="publications/bibtex/slwang_PhD-Dissertation.bib">BibTex</a></div> -->
+            <div class="abstract">
+                In Deepfake Detection (DFD) tasks, researchers proposed two types of MLLM-based methods: complementary combination with small DFD detectors, or static forgery knowledge injection.
+                The lack of professional forgery knowledge hinders the performance of these DFD-MLLMs.
+                To solve this, we deeply considered two insightful issues: How to provide high-quality associated forgery knowledge for MLLMs? AND How to endow MLLMs with critical reasoning abilities given noisy reference information?
+                Notably, we attempted to address above two questions with preliminary answers by leveraging the combination of Retrieval-Augmented Generation (RAG) and Reinforcement Learning (RL).
+                Through RAG and RL techniques, we propose the VRAG-DFD framework with accurate dynamic forgery knowledge retrieval and powerful critical reasoning capabilities.
+                Specifically, in terms of data, we constructed two datasets with RAG: Forensic Knowledge Database (FKD) for DFD knowledge annotation, and Forensic Chain-of-Thought Dataset (F-CoT), for critical CoT construction.
+                In terms of model training, we adopt a three-stage training method (Alignment → SFT → GRPO) to gradually cultivate the critical reasoning ability of the MLLM.
+                In terms of performance, VRAG-DFD achieved SOTA and competitive performance on DFD generalization testing.
+                Code and trained wights of VRAG-DFD will be publicly available on GitHub.  </div>
+        </div>
+    </div>
+
+    <!-- publication -->
+    <div class="publication">
         <div class="pubimg"><img src="publications/img/slwang_PhD-Dissertation.png" class="thumbnail"></div>
         <div style="display:table-row">
             <div class="pubtitle">● Research of Fine-grained Medical Action Recognition and Skill Assessment Technologies </div>
