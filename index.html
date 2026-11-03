@@ -69,13 +69,47 @@
 
     <!-- publication -->
     <div class="publication">
+        <div class="pubimg"><img src="publications/img/slwang_OmniFysics-Nano-V2.png" class="thumbnail"></div>
+        <div style="display:table-row">
+            <div class="pubtitle">● OmniFysics-Nano-V2 Technical Report: Understanding the Physical World Across Modalities </div>
+            <div class="pubauthors">Yizhou Liu, Jinghang Han, Kaixiang Qiu, Qi He, Minghao Han, Yue Jiang, Xujia Chen, Wei Zou, <b>Shunli Wang</b>*, Lihua Zhang*, Dingkang Yang*</div>
+            <div class="pubinfo">ArXiv</div>
+            <div class="pubbox trigger"><a href="javascript:void(0)">Abstract</a></div>
+            <div class="pubbox"><a href="publications/pdf/slwang_OmniFysics-Nano-V2.pdf">PDF</a></div>
+            <!-- <div class="pubbox"><a href="publications/pdf/slwang_VRAG-DFD_poster.pdf">Poster</a></div> -->
+            <div class="pubbox"><a href="https://github.com/Fysics-AI/OmniFysics-Nano-V2">Code</a></div>
+            <!-- <div class="pubbox"><a href="publications/bibtex/slwang_VRAG-DFD.bib">BibTex</a></div> -->
+            <div class="abstract">
+                Omni-modal models have expanded multimodal interaction across vision, audio, speech, and language.
+                However, their training is predominantly organized around semantic descriptions and general-purpose
+                objectives, leaving physical attributes, interaction states, and causal mechanisms only partially specified.
+                This gap is not simply a matter of modality coverage: adding more modalities does not by itself provide
+                the supervision needed to connect observations with the physical structure of the world. We present
+                OmniFysics-Nano-V2, a compact omni-modal model for physical-world perception and understanding.
+                The model supports image, video, audio, speech, and text inputs within a shared reasoning framework,
+                together with text and speech generation. To address the lack of explicit physical supervision, we construct
+                a dual-branch physics-aware data pipeline that grounds salient objects in structured physical attributes
+                and aligns visual changes with acoustic events, intermediate responses, and interaction outcomes. To
+                address homogeneous training objectives, we curate reinforcement-learning prompts by reward diversity
+                and adopt a two-stage Group Relative Policy Optimization curriculum that progresses from general task
+                correctness to fine-grained physical perceptual reasoning. Experiments across multimodal, audio-visual, and
+                physical reasoning benchmarks show that the proposed data and training strategy improves physical-world
+                understanding while preserving broad omni-modal competence. The proposed model achieves leading result
+                on 17 of 21 benchmarks against SOTA omni-modal models. By equipping AI systems with both omni-modal
+                and physical-world perception capabilities, OmniFysics-Nano-V2 is poised to become a cornerstone of
+                next-generation Physical AI. </div>
+        </div>
+    </div>
+
+    <!-- publication -->
+    <div class="publication">
         <div class="pubimg"><img src="publications/img/slwang_DeepfakeGenome.png" class="thumbnail"></div>
         <div style="display:table-row">
             <div class="pubtitle">● DeepfakeGenome: Toward Next-Generation Deepfake Attribution </div>
             <div class="pubauthors"><u><b>Shunli Wang</b></u>, <u>Xinyu Zhou</u>, Yandan Zhao, Wenbin Liang, Taiping Yao, Ke-Yue Zhang, Zhiyuan Yan, Shouhong Ding*, Lizhuang Ma</div>
             <div class="pubinfo">Conference on Neural Information Processing Systems, Track on Eval & Datasets. (NeurIPS 2026)</div>
             <div class="pubbox trigger"><a href="javascript:void(0)">Abstract</a></div>
-            <div class="pubbox"><a href="publications/pdf/slwang_DeepfakeGenome.pdf.pdf">PDF</a></div>
+            <div class="pubbox"><a href="publications/pdf/slwang_DeepfakeGenome.pdf">PDF</a></div>
             <!-- <div class="pubbox"><a href="publications/pdf/slwang_VRAG-DFD_poster.pdf">Poster</a></div> -->
             <div class="pubbox"><a href="https://huggingface.co/spaces/DeepfakeGenome/DFG_Page">Code</a></div>
             <!-- <div class="pubbox"><a href="publications/bibtex/slwang_VRAG-DFD.bib">BibTex</a></div> -->
